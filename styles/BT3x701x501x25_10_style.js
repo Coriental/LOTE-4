@@ -6,16 +6,16 @@ var style_BT3x701x501x25_10 = function(feature, resolution){
         feature: feature,
         variables: {}
     };
-    var value = ""
-    var labelText = "";
-    size = 0;
+    
+    var labelText = ""; 
+    var value = feature.get("");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
     var textAlign = "left";
-    var offsetX = 8;
-    var offsetY = 3;
+    var offsetX = 0;
+    var offsetY = 0;
     var placement = 'line';
     if ("" !== null) {
         labelText = String("");
