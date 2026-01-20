@@ -6,7 +6,7 @@ var map = new ol.Map({
     view: new ol.View({
          maxZoom: 28, minZoom: 3, projection: new ol.proj.Projection({
             code: 'EPSG:32721',
-            //extent: [302923.630714, 719990.986428, 4686696.000000, 722024534.000000],
+            //extent: [436974.729504, 7074128.699010, 2240124.845372, 19917977.044372],
             units: 'm'})
     })
 });
